@@ -1,3 +1,6 @@
+# ROBERT IS THE GREATEST EVER LIKE SRSLY
+
+
 #politicians characteristics
 class Politician
   attr_accessor :name, :party
@@ -270,7 +273,7 @@ class World
     end
   end
 
-  def update_party x 
+  def update_party x
     #@politician_array.each do |x| # no need for .each loop here
       puts "Are you sure you want to update? (Y)es or (N)o?"
       decision2 = gets.chomp.downcase
@@ -280,7 +283,7 @@ class World
         new_party = gets.chomp.downcase
         if new_party == "r"
           new_party = "Republican"
-          x[1] = new_party #x.party = new_party 
+          x[1] = new_party #x.party = new_party
           main_menu
         elsif new_party == "d"
           new_party = "Democrat"
@@ -344,7 +347,7 @@ class World
       end
     end
     puts "Registered Voters:"
-    @voter_array.each do |x| 
+    @voter_array.each do |x|
       puts "#{x[0]}: #{x[1]}"# "#{x.name}: #{x.party}"
     end
     puts "Would you like to (U)pdate or go to the (M)ain menu?"
