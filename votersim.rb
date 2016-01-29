@@ -1,4 +1,6 @@
 # ROBERT IS THE GREATEST EVER LIKE SRSLY
+#nah fool
+
 
 
 #politicians characteristics
